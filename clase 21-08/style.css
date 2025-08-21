@@ -1,0 +1,74 @@
+header{
+    background-color: bisque;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color:brown;
+}
+
+ul{
+    background-color: blanchedalmond;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color:brown;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ li a:hover{
+    background-color: blanchedalmond;
+ }
+
+ .florecillas{
+    text-align: center;
+    margin: 20px 0;
+
+ }
+ .florecillas img {
+     max-width: 80%; 
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto; 
+    display: block;
+ }
+
+ .subtitulo{
+    background-color: bisque;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color:brown;
+ }
+ 
+ .galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+ }
+
+ .item{
+    width: 120px;
+ }
+
+ .item img{
+    width: 100%;
+    border-radius: 10px;
+ }
+
+ .item p{
+    margin-top: 10px;
+    font-size: 14px;
+ }
